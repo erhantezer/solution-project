@@ -1,8 +1,12 @@
-import React from 'react'
+import { useGlobalContext } from '../context';
 
-const FilmYear = () => {
+const FilmYear = ({data}) => {
+    const { filmIndex, setFilmIndex } = useGlobalContext();
+
     return (
-        <div>FilmYear</div>
+        <div>
+
+        </div>
     )
 }
 
