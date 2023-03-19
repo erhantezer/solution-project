@@ -1,9 +1,10 @@
+import Main from "./pages/Main";
 
 
 function App() {
   return (
-    <div className="App">
-
+    <div className='container mt-5 d-flex justify-content-center align-items-center'>
+      <Main />
     </div>
   );
 }
