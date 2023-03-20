@@ -8,7 +8,9 @@ const FilmYear = ({data}) => {
             <div>
                 {data.map((item)=> {
                     return (
-                            <div></div>
+                            <button onClick={() => setFilmIndex(item.id)}>
+                                {item.date}
+                            </button>
                         )
                 })}
             </div>
