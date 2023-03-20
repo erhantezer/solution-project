@@ -10,12 +10,13 @@ const FilmYear = ({ data }) => {
                 id="v-pills-tab"
                 role="tablist"
                 aria-orientation="vertical">
-                {data.map((item) => {
+                {data.map((item,i) => {
                     return (
                         <button
+                        key={item.id}
                             className={`border-0 px-2 m-2 fs-4 fw-bold text-secondary 
                         ${item.id === filmIndex && "activeBtn"}`}
-                            onClick={() => setFilmIndex(item.id)}
+                            onClick={() => setFilmIndex(i)}
                         >
                             {item.date}
                         </button>
