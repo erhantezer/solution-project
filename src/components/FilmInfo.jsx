@@ -1,12 +1,12 @@
 import React from 'react'
 
 
-const FilmInfo = ({film}) => {
-    
+const FilmInfo = ({ film }) => {
+    const { id, title, body, rate } = film
 
     return (
-        <div>
-
+        <div key={id}>
+            {title}
         </div>
     )
 }
