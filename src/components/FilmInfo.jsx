@@ -10,6 +10,11 @@ const FilmInfo = ({ film }) => {
                 <h3>{title}</h3>
                 <span>{body}</span>
             </div>
+            <article className="d-flex align-items-center">
+                <div className="d-flex ">
+                    <span className="text-danger p-1 rounded-3">{tags.join(" / ")}</span>
+                </div>
+            </article>
             
         </div>
     )
