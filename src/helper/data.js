@@ -21,6 +21,7 @@ export const data = [
     rate: 7.564,
     tags: ["Action","Adventure","Fantasy","Sci - Fi"],
     date: 2009,
+    adress: "https://www.imdb.com/title/tt0499549/"
   },
   {
     id: 3,
@@ -29,6 +30,7 @@ export const data = [
     rate: 8.7,
     tags: ["Drama"],
     date: 1994,
+    adress: "https://www.imdb.com/title/tt0111161/"
   },
   {
     id: 4,
@@ -37,5 +39,6 @@ export const data = [
     rate: 8.714,
     tags: ["Crime", "Drama"],
     date: 1972,
+    adress: "https://www.imdb.com/title/tt0068646/"
   },
 ];
