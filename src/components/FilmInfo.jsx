@@ -15,6 +15,9 @@ const FilmInfo = ({ film }) => {
                     <span className="text-danger p-1 rounded-3">{tags.join(" / ")}</span>
                 </div>
             </article>
+            <article>
+                
+            </article>
             
         </div>
     )
