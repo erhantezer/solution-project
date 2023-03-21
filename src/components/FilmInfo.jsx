@@ -2,7 +2,9 @@ import ReactStars from 'react-stars'
 
 
 const FilmInfo = ({ film }) => {
-    const { id, title, body, rate, tags } = film
+    const { id, title, body, rate, tags, adress } = film;
+console.log(adress)
+    
 
     return (
         <div key={id} className='col-12 col-sm-9'>
@@ -34,8 +36,16 @@ const FilmInfo = ({ film }) => {
                         style={{ fontSize: "1.4rem" }}>
                         {rate.toFixed(2)} / 10
                     </div>
+                    
                 </div>
+                
             </article>
+            <div>
+                
+                <button className='anime' style={{ fontSize: "1.4rem", border: "none",padding:"0.3rem", borderRadius:"0.5rem", textDecoration:"none" }}>
+                    <a style={{  padding: "0.3rem", textDecoration: "none", color:"red" }} href={adress}>Goooo</a>
+                </button>
+            </div>
             
         </div>
     )
