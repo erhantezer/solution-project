@@ -12,7 +12,7 @@ export const data = [
       "Fantasy",
     ],
     date: 2022,
-    adress:"https://www.imdb.com/title/tt0068646/"
+    adress:"https://www.imdb.com/title/tt3915174/"
   },
   {
     id: 2,
